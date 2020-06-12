@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "ENTER A URL";
-for i in {1..65}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
+for i in {1..67}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
 mv html.txt html.txt.gz;
 gunzip html.txt.gz;
 grep -o '"https://traffic.megaphone[^"]*["mp3"]' html.txt | tr -d '"' > result.txt;
