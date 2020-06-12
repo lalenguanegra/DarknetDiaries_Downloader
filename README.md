@@ -17,7 +17,7 @@ bash 2.sh // old script - no longer working
 
 bash Update_2.sh / new script working
 
-// for episodes 1 - 65
+// for episodes 1 - 67
 --------------------------------
 DEMO
 --------------
