@@ -1,4 +1,4 @@
-#Old Code (Episodes 1 - 69)
+#Old Code (Episodes 1 - 69) uses traffic.megaphone
 
 #!/bin/bash
 echo "ENTER A URL";
@@ -14,7 +14,7 @@ rm title.txt;
 rm result.txt;
 done;
 
-#New Code (Epidose 70)
+#New Code (Episode 70) uses podtrac.com
 
 #!/bin/bash
 echo "ENTER A URL";
@@ -30,7 +30,7 @@ rm title.txt;
 rm result.txt;
 done;
 
-#Combined (1 - 70)
+#Combined Episodes (1 - 70) (Bulk Download)
 
 echo "ENTER A URL";
 for i in {1..69}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
