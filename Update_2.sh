@@ -33,7 +33,6 @@ done;
 #Combined Episodes (1 - 70) (Bulk Download)
 
 #!/bin/bash
-echo "ENTER A URL";
 for i in {1..69}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
 mv html.txt html.txt.gz;
 gunzip html.txt.gz;
@@ -45,7 +44,6 @@ while read title; do mv "$i.mp3" "$title.mp3"; done < title.txt;
 rm title.txt;
 rm result.txt;
 done;
-echo "ENTER A URL";
 for i in {70..70}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
 mv html.txt html.txt.gz;
 gunzip html.txt.gz;
