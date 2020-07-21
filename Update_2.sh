@@ -1,4 +1,4 @@
-#Old Code
+#Old Code (Episodes 1 - 69)
 
 #!/bin/bash
 echo "ENTER A URL";
@@ -14,7 +14,7 @@ rm title.txt;
 rm result.txt;
 done;
 
-#New Code
+#New Code (Epidose 70)
 
 #!/bin/bash
 echo "ENTER A URL";
@@ -31,6 +31,7 @@ rm result.txt;
 done;
 
 #Combined (1-70)
+
 echo "ENTER A URL";
 for i in {1..69}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
 mv html.txt html.txt.gz;
