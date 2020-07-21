@@ -30,7 +30,7 @@ rm title.txt;
 rm result.txt;
 done;
 
-#Combined (1-70)
+#Combined (1 - 70)
 
 echo "ENTER A URL";
 for i in {1..69}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
