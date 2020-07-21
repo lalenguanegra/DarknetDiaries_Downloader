@@ -1,4 +1,4 @@
-# Old Code 
+# Old Code uses traffic.megaphone
 
 #!/bin/bash
 echo "ENTER A URL";
