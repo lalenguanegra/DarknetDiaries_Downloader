@@ -15,7 +15,7 @@ rm title.txt;
 rm result.txt;
 
 
-# New Code 
+# New Code was changed to user podtrac.com
 
 #!/bin/bash
 echo "ENTER A URL";
