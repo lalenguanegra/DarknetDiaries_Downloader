@@ -32,7 +32,7 @@ rm title.txt;
 rm result.txt;
 
 
-#Updated 7/21/2020 1:12PM FOR LOOP CODE
+#Updated 7/21/2020 1:12PM IF/Else Statement CODE
 
 #!/bin/bash
 echo "ENTER A URL";
