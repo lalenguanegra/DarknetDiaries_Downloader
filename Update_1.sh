@@ -53,7 +53,7 @@ then
 	rm result.txt;
 
 else
-  curl $myInput > html.txt;
+        curl $myInput > html.txt;
 	mv html.txt html.txt.gz;
 	gunzip html.txt.gz;
 	grep -o '"https://www.podtrac.com[^"]*["mp3"]' html.txt | tr -d '"' > result.txt;
@@ -64,6 +64,10 @@ else
 	rm title.txt;
 	rm result.txt;
     fi
+ 
+
+
+
  
 
 
