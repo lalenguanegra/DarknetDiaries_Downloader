@@ -64,12 +64,3 @@ else
 	rm title.txt;
 	rm result.txt;
     fi
- 
-
-
-
- 
-
-
-
-
