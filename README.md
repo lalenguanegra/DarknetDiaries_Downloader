@@ -24,3 +24,7 @@ DEMO
 https://youtu.be/xB6mtvqAlek
 
 https://youtu.be/DsoOBg2JdAs
+
+Transcripts
+----------------
+https://www.youtube.com/watch?v=aysdT12vO5c
