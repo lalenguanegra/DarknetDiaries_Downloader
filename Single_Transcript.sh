@@ -2,7 +2,7 @@ echo "ENTER A URL";
 read myInput;
 okay=$(echo $myInput | grep -o -E '[0-9]+')
 echo $okay
-if [ $okay -lt 67 ]
+if [ $okay -lt 68 ]
 then
   curl $myInput > html.txt;
   mv html.txt html.txt.gz;
