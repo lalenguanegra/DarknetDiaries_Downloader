@@ -28,3 +28,7 @@ https://youtu.be/DsoOBg2JdAs
 Transcripts
 ----------------
 https://www.youtube.com/watch?v=aysdT12vO5c
+
+Artwork
+------------------
+https://www.youtube.com/watch?v=pzVi-rI3dlc
