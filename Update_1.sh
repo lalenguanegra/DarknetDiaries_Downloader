@@ -32,7 +32,7 @@ rm title.txt;
 rm result.txt;
 
 
-#Updated 7/21/2020 1:12PM IF/Else Statement CODE Single Episodes (1 - 72)
+#Updated 7/21/2020 1:12PM IF/Else Statement CODE Single Episodes (1 - 73)
 
 #!/bin/bash
 echo "ENTER A URL";
