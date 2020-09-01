@@ -30,7 +30,7 @@ rm title.txt;
 rm result.txt;
 done;
 
-#Combined Episodes (1 - 72) (Bulk Download)
+#Combined Episodes (1 - 73) (Bulk Download)
 
 #!/bin/bash
 for i in {1..69}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
@@ -44,7 +44,7 @@ while read title; do mv "$i.mp3" "$title.mp3"; done < title.txt;
 rm title.txt;
 rm result.txt;
 done;
-for i in {70..72}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
+for i in {70..73}; do curl "https://darknetdiaries.com/episode/$i/" > html.txt;
 mv html.txt html.txt.gz;
 gunzip html.txt.gz;
 grep -o '"https://www.podtrac.com[^"]*["mp3"]' html.txt | tr -d '"' > result.txt;
