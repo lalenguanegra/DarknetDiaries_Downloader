@@ -11,7 +11,7 @@ sed -i 's/ayylmao/[END OF RECORDING\]/g' "$i.txt"
 rm html.txt
 rm result.txt
 done;
-for i in {68..72}; do curl "https://darknetdiaries.com/transcript/$i/" > html.txt;
+for i in {68..73}; do curl "https://darknetdiaries.com/transcript/$i/" > html.txt;
 mv html.txt html.txt.gz;
 gunzip html.txt.gz;
 sed -e 's/<[^>]*>//g' html.txt > result.txt
