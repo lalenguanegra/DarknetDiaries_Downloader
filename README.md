@@ -24,14 +24,12 @@ bash Update_2.sh / new script working
 --------------------------------
 DEMO
 --------------
-https://youtu.be/xB6mtvqAlek
-
-https://youtu.be/DsoOBg2JdAs
+https://www.bitchute.com/video/S27qm0cWCLcX/
 
 Transcripts
 ----------------
-https://www.youtube.com/watch?v=aysdT12vO5c
+https://www.bitchute.com/video/IbdZBap8C3Qz/
 
 Artwork
 ------------------
-https://www.youtube.com/watch?v=pzVi-rI3dlc
+https://www.bitchute.com/video/5X9AWHleegdZ/
